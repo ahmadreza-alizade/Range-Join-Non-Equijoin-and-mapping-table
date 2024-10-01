@@ -10,7 +10,7 @@ The type of join used in your example is often referred to as a **range join** o
    - This kind of join is useful when one table has continuous or overlapping ranges (e.g., price ranges, score ranges, or date ranges), and you need to find which range a value from another table falls into.
 
 2. **Tables**:
-   - **Lookup Table** (e.g., `discounts`): The `discounts` table is functioning as a **lookup table** in this case. It defines certain ranges (e.g., price ranges) and associates each range with a value (in this case, a `discount_rate`).
+   - **Lookup Table or Mapping Table** (e.g., `discounts`): The `discounts` table is functioning as a **lookup table** in this case. It defines certain ranges (e.g., price ranges) and associates each range with a value (in this case, a `discount_rate`).
      - Lookup tables are commonly used for categorizing data, such as mapping ranges of values (like price or marks) to categories (like discounts or grades).
    - **Fact Table** (e.g., `products`): The `products` table is providing the actual data (in this case, product information and prices). It can be thought of as a **fact table** in data modeling, which stores the primary data that needs to be categorized or analyzed.
 
